@@ -1,0 +1,14 @@
+C:\Users\Octa\source\repos\Piteda\Piteda\bin\Debug\netstandard2.0\Piteda.deps.json
+C:\Users\Octa\source\repos\Piteda\Piteda\bin\Debug\netstandard2.0\Piteda.dll
+C:\Users\Octa\source\repos\Piteda\Piteda\bin\Debug\netstandard2.0\ref\Piteda.dll
+C:\Users\Octa\source\repos\Piteda\Piteda\bin\Debug\netstandard2.0\Piteda.pdb
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\Piteda.csprojAssemblyReference.cache
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\Piteda.AssemblyInfoInputs.cache
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\Piteda.AssemblyInfo.cs
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\Piteda.dll
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\ref\Piteda.dll
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\Piteda.pdb
+C:\Users\Octa\source\repos\Piteda\Piteda\bin\Debug\netstandard2.0\PitedaBarcodes.dll
+C:\Users\Octa\source\repos\Piteda\Piteda\obj\Debug\netstandard2.0\Piteda.csproj.CopyComplete

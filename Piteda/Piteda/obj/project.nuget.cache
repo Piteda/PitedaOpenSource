@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sn2wX61hVv8oOTHxvP7lj0J4fYxcgrJ+LfThOXfJHe94zB479MUk1i6Vu3LW5Ggv7JCc+MGzQDviivQcQnBe0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Octa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Octa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Octa\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Octa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Octa\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\Octa\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512"
+  ],
+  "logs": []
+}
