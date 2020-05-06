@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj": {}
+    "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj": {
+    "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj",
         "projectName": "Piteda.iOS",
-        "projectPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj",
-        "packagesPath": "C:\\Users\\Octa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.iOS\\obj\\",
+        "projectPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.iOS\\Piteda.iOS.csproj",
+        "packagesPath": "C:\\Users\\plade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Octa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\plade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj": {
-                "projectPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj"
+              "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj": {
+                "projectPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.1, )"
@@ -65,20 +69,21 @@
         }
       }
     },
-    "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj": {
+    "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj",
+        "projectUniqueName": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj",
         "projectName": "Piteda",
-        "projectPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj",
-        "packagesPath": "C:\\Users\\Octa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\obj\\",
+        "projectPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj",
+        "packagesPath": "C:\\Users\\plade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Octa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\plade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -113,6 +118,10 @@
               "target": "Package",
               "version": "[4.7.0, )"
             },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.1, )"
@@ -132,7 +141,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

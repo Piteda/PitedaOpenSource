@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.Android\\Piteda.Android.csproj": {}
+    "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.Android\\Piteda.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.Android\\Piteda.Android.csproj": {
+    "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.Android\\Piteda.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.Android\\Piteda.Android.csproj",
+        "projectUniqueName": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.Android\\Piteda.Android.csproj",
         "projectName": "Piteda.Android",
-        "projectPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.Android\\Piteda.Android.csproj",
-        "packagesPath": "C:\\Users\\Octa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda.Android\\obj\\",
+        "projectPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.Android\\Piteda.Android.csproj",
+        "packagesPath": "C:\\Users\\plade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Octa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\plade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj": {
-                "projectPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj"
+              "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj": {
+                "projectPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj"
               }
             }
           }
@@ -45,6 +45,10 @@
             "BarCode": {
               "target": "Package",
               "version": "[2020.5.0, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -58,20 +62,21 @@
         }
       }
     },
-    "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj": {
+    "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj",
+        "projectUniqueName": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj",
         "projectName": "Piteda",
-        "projectPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\Piteda.csproj",
-        "packagesPath": "C:\\Users\\Octa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Octa\\Piteda - Octavian\\Piteda\\Piteda\\obj\\",
+        "projectPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\Piteda.csproj",
+        "packagesPath": "C:\\Users\\plade\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\plade\\PitedaOpenSource\\Piteda\\Piteda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Octa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\plade\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -106,6 +111,10 @@
               "target": "Package",
               "version": "[4.7.0, )"
             },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.1, )"
@@ -125,7 +134,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

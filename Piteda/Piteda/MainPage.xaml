@@ -6,25 +6,27 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Piteda.MainPage">
-    <ScrollView>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="30" />
-                    <RowDefinition Height="60" />
-                    <RowDefinition Height="60" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <BoxView Color="#cd2026" Grid.ColumnSpan="3" Grid.RowSpan="4"/>
-                <Label Text="Server Status:" Grid.Row="0" Grid.ColumnSpan="3" BackgroundColor="Black" TextColor="White" FontSize="Large" VerticalOptions="Start" />
-                <Button BackgroundColor="White" WidthRequest="100" HeightRequest="40" BorderRadius="100" BorderColor="Black" BorderWidth="5" Text="Options" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" />
-                <Button BackgroundColor="White" WidthRequest="100" HeightRequest="40" BorderRadius="100" BorderColor="Black" BorderWidth="5" Text="Switch Camera" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" />
-                <Button BackgroundColor="White" WidthRequest="100" HeightRequest="40" BorderRadius="100" BorderColor="Black" BorderWidth="5" Text="Flash" Grid.Row="1" Grid.Column="2" HorizontalOptions="End" />
-            </Grid>
-
-        </ScrollView>
+    <ScrollView x:Name="myScrollView">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <BoxView Color="#cd2026" Grid.ColumnSpan="3" Grid.RowSpan="4"/>
+            <Label x:Name="statusLabel" Text="Server Status:" Grid.Row="0" Grid.ColumnSpan="3" BackgroundColor="Black" TextColor="White" FontSize="Large" VerticalOptions="Start" />
+            <local:CameraPreview x:Name="CameraPrevRear" IsVisible="True" Grid.Row="1" Grid.ColumnSpan="3" Camera="Rear" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+            <local:CameraPreview x:Name="CameraPrevFront" IsVisible="False" Grid.Row="1" Grid.ColumnSpan="3" Camera="Front" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+            <Button BackgroundColor="White" WidthRequest="100" HeightRequest="40" BorderRadius="100" BorderColor="Black" BorderWidth="5" Text="Options" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" />
+            <Button Clicked="OnSwitchCameraClicked" BackgroundColor="White" WidthRequest="100" HeightRequest="40" BorderRadius="100" BorderColor="Black" BorderWidth="5" Text="Switch Camera" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" />
+            <Button BackgroundColor="White" WidthRequest="100" HeightRequest="40" BorderRadius="100" BorderColor="Black" BorderWidth="5" Text="Flash" Grid.Row="2" Grid.Column="2" HorizontalOptions="End" />
+            <Button x:Name="captureButton" Clicked="OnCaptureClicked" BackgroundColor="White" WidthRequest="100" HeightRequest="40" BorderRadius="100" BorderColor="Black" BorderWidth="5" Text="Capture" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" />
+        </Grid>
+    </ScrollView>
 </ContentPage>

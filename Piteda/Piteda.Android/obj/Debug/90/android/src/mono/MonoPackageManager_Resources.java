@@ -4,7 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Piteda.Android.dll" comes first in this list. */
 		"Piteda.Android.dll",
 		"FormsViewGroup.dll",
+		"IronBarCode.dll",
 		"Piteda.dll",
+		"PitedaBarcodes.dll",
+		"Plugin.Media.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
